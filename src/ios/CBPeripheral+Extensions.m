@@ -21,7 +21,7 @@
 static char ADVERTISING_IDENTIFER;
 static char ADVERTISEMENT_RSSI_IDENTIFER;
 
-@implementation CBPeripheral(com_megster_ble_extension)
+@implementation CBPeripheral(com_emeth_ble_extension)
 
 -(NSString *)uuidAsString {
     if ([self UUID]) {

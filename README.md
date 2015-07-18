@@ -28,7 +28,7 @@ See the [examples](https://github.com/don/cordova-plugin-ble-central/tree/master
 Install with Cordova CLI
 
     $ cd /path/to/your/project
-    $ cordova plugin add com.megster.cordova.ble
+    $ cordova plugin add com.emeth.cordova.ble
 
 # API
 

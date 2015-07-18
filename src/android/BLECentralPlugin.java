@@ -12,7 +12,7 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-package com.megster.cordova.ble.central;
+package com.emeth.cordova.ble.central;
 
 import android.app.Activity;
 import android.bluetooth.BluetoothAdapter;

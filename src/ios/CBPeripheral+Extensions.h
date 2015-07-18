@@ -22,7 +22,7 @@
 #import <Cordova/CDV.h>
 
 
-@interface CBPeripheral(com_megster_ble_extension)
+@interface CBPeripheral(com_emeth_ble_extension)
 
 @property (nonatomic, retain) NSDictionary *advertising;
 @property (nonatomic, retain) NSNumber *advertisementRSSI;

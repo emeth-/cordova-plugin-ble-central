@@ -13,6 +13,6 @@ Hardware
 Install
 
     $ cordova platform add android ios
-    $ cordova plugin add com.megster.cordova.ble
+    $ cordova plugin add com.emeth.cordova.ble
     $ cordova run
 

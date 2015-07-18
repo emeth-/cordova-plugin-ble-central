@@ -1,4 +1,4 @@
-package com.megster.cordova.ble.central;
+package com.emeth.cordova.ble.central;
 
 import org.apache.cordova.CallbackContext;
 
