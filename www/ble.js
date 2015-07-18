@@ -39,8 +39,8 @@ function massageMessageNativeToJs(message) {
 // https://github.com/apache/cordova-js/blob/94291706945c42fd47fa632ed30f5eb811080e95/src/ios/exec.js#L107-L122
 function convertToNativeJS(object) {
     Object.keys(object).forEach(function (key) {
-        var value = object[key];
-        object[key] = massageMessageNativeToJs(value);
+        var value = massageMessageNativeToJs(object[key]);
+        object[key] = value;
         if (typeof(value) === 'object') {
             convertToNativeJS(value);
         }
